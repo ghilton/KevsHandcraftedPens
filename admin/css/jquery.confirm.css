@@ -1,0 +1,76 @@
+#confirmOverlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	/*background:url('ie.png');*/
+	background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+	z-index:100000;
+}
+
+#confirmBox{
+	background:url(../images/popup_bg.png) repeat-x left bottom #e5e5e5;
+	width:550px; height:144px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin:-130px 0 0 -230px;
+	background-color:transparent;
+}
+
+#confirmBox h1,
+#confirmBox p{ margin:0px;
+	
+	padding: 18px 0px 6px 25px;
+	
+	color:#686868;
+}
+
+#confirmBox h1{ margin:0px; padding:11px 0px 0px 20px; font-size:18px; font-family:calibri;
+	letter-spacing:0.3px;
+	color:#888;
+}
+
+#confirmBox p{
+	background:none;
+	font-size:16px;
+	
+	
+}
+
+#confirmButtons{
+	padding:8px 0 23px;
+	text-align:center; float:left; margin-left:297px;
+}
+
+#confirmBox .button{
+	display:inline-block;
+	background:url(../images/button.png) no-repeat;
+	color:white;
+	position:relative;
+	height: 36px; width:95px;
+	padding-top:2px;
+	font:17px/33px 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	
+	margin-left:20px; 
+	 background-color:transparent;
+	text-decoration:none;
+	border:none;
+}
+#confirmBox .button:hover{ background-position:0px -38px}
+#confirmBox .button:active{ background-position:0px -76px}
+#confirmBox .button:last-child{	margin-right:0;}
+
+.cancel a{
+	background:url(../images/cross.png);
+	height: 21px;
+width: 22px; text-indent:-99999px; overflow:hidden; display:block;
+margin-left: 532px;
+margin-bottom: -13px;
+margin-top: -7px;
+}}
+	
+	
+

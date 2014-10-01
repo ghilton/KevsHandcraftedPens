@@ -1,0 +1,671 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px;padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:11pt; overflow:scroll}
+div{word-wrap: break-word;}
+
+.clear{clear:both;}
+h1,h2,h3,h4,h5,h6,ul,img,a,p{margin:0px; padding:0px;text-decoration:none;list-style-type:none;border:0px;outline:none;}
+/***************after login page starts--------------*/
+.container{ background-color:#FFF; width:990px; height:auto; }
+.container .header{ float:left; background-image:url(../images/bg.png); width:980px; height:70px;}
+.container .header .image_1{ float:left; margin-left:10px}
+.container .header .image_1 img{ float:left; margin-top:5px}
+.container .header .list{ float:left}
+.list ul#nav{ float:left; width:1024px}
+.list ul#nav li{ float:left;padding: 0px 0px 0px 1px; margin-left:15px; margin-top:16px;}
+.list ul#nav li.dashboard a{ display:block; color:white; cursor:pointer;  font-size:15px;}
+.list ul#nav li.dashboard a .dashboardleft{ background:url(../images/left_div.png); width:9px; height:40px; float:left; font-size:0px; display:block; line-height:0px}
+.list ul#nav li.dashboard a .dashboardcenter{ background:url(../images/center_div3.png) repeat-x; float:left; padding:11px 2px 12px 2px}
+.list ul#nav li.dashboard a .dashboardcenter .dashboardmain{ color:white;background:url(../images/icon_1.png) no-repeat; float:left; padding-left:28px }
+.list ul#nav li.dashboard a .dashboardcenter:hover .dashboardmain,.list ul#nav li.dashboard a .dashboardcenter.active .dashboardmain{ background-position:0px -18px; color:#272727}
+.list ul#nav li.dashboard a .dashboardright{ background:url(../images/right_div.png); width:9px; float:left; height:40px }
+.list ul#nav li.dashboard a .dashboardcenter .update{ color:white;background:url(../images/icon_2.png) no-repeat; float:left; padding-left:24px; padding-top:1px }
+.list ul#nav li.dashboard a .dashboardcenter:hover .update,.list ul#nav li.dashboard a .dashboardcenter.active .update{ background-position:0px -20px; color:#272727}
+.list ul#nav li.dashboard a .dashboardcenter .slideshow{ color:white;background:url(../images/icon_3.png) no-repeat; float:left; padding-left:25px; padding-top:1px;  }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow:hover,.list ul#nav li.dashboard a .dashboardcenter .slideshowactive{ background-position:0px -21px !important; color:#272727; float:left; padding-left:25px; padding-top:1px ;background:url(../images/icon_3.png) no-repeat bottom; }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow1{ color:white;background:url(../images/icon_3.png) no-repeat; float:left; padding-left:25px; padding-top:1px;  }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow1:hover,.list ul#nav li.dashboard a .dashboardcenter .slideshow1active{ background-position:0px -21px !important; color:#272727; float:left; padding-left:25px; padding-top:1px ;background:url(../images/icon_3.png) no-repeat bottom; }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow2{ color:white;background:url(../images/icon_3.png) no-repeat; float:left; padding-left:25px; padding-top:1px;  }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow2:hover,.list ul#nav li.dashboard a .dashboardcenter .slideshow2active{ background-position:0px -21px !important; color:#272727; float:left; padding-left:25px; padding-top:1px ;background:url(../images/icon_3.png) no-repeat bottom; }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow3{ color:white;background:url(../images/icon_3.png) no-repeat; float:left; padding-left:25px; padding-top:1px;  }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow3:hover,.list ul#nav li.dashboard a .dashboardcenter .slideshow3active{ background-position:0px -21px !important; color:#272727; float:left; padding-left:25px; padding-top:1px ;background:url(../images/icon_3.png) no-repeat bottom; }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow4{ color:white;background:url(../images/icon_3.png) no-repeat; float:left; padding-left:25px; padding-top:1px;  }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow4:hover,.list ul#nav li.dashboard a .dashboardcenter .slideshow4active{ background-position:0px -21px !important; color:#272727; float:left; padding-left:25px; padding-top:1px ;background:url(../images/icon_3.png) no-repeat bottom; }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow5{ color:white;background:url(../images/icon_3.png) no-repeat; float:left; padding-left:25px; padding-top:1px;  }
+.list ul#nav li.dashboard a .dashboardcenter .slideshow5:hover,.list ul#nav li.dashboard a .dashboardcenter .slideshow5active{ background-position:0px -21px !important; color:#272727; float:left; padding-left:25px; padding-top:1px ;background:url(../images/icon_3.png) no-repeat bottom; }
+.list ul#nav li.dashboard a .dashboardcenter .tips{ color:white;background:url(../images/icon_4.png) no-repeat; float:left; padding-left:19px; padding-top:1px; }
+.list ul#nav li.dashboard a .dashboardcenter:hover .tips,.list ul#nav li.dashboard a .dashboardcenter .tipsactive{ background-position:0px -22px !important; color:#272727;float:left; padding-left:19px; padding-top:1px ;background:url(../images/icon_4.png) no-repeat bottom;}
+.list ul#nav li.dashboard a .dashboardcenter .customer{ color:white;background:url(../images/icon_5.png) no-repeat; float:left; padding-left:22px; padding-top:1px;}
+.list ul#nav li.dashboard a .dashboardcenter:hover .customer,.list ul#nav li.dashboard a .dashboardcenter .customeractive{ background-position:0px -21px !important; color:#272727;background:url(../images/icon_5.png) no-repeat; float:left; padding-left:22px; padding-top:1px;}
+.list ul#nav li.dashboard a .dashboardcenter .configuration{ color:white;background:url(../images/icon_6.png) no-repeat; float:left; padding-left:25px; padding-top:1px; }
+.list ul#nav li.dashboard a .dashboardcenter:hover .configuration,.list ul#nav li.dashboard a .dashboardcenter .configurationactive{ background-position:0px -20px !important; color:#272727;background:url(../images/icon_6.png) no-repeat; float:left; padding-left:25px; padding-top:1px;}
+.list ul#nav li.dashboard a .dashboardcenter .logout{ color:white}
+.list ul#nav li.dashboard a .dashboardcenter:hover .logout,.list ul#nav li.dashboard a .dashboardcenter.active .logout{ background-position:0px -20px; color:#272727}
+/* sub levels link hover */
+#nav ul li:hover a, #nav li:hover li a {
+	background: none;
+	border: none;
+	color: #666;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#nav ul a:hover {
+	background: #0b9dff url(../images/gradient.png) repeat-x 0 -100px !important;
+	color:#333 !important;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+
+	text-shadow: 0 1px 1px rgba(0,0,0, .1);
+}
+
+/* dropdown */
+#nav li:hover > ul {
+	display: block;
+}
+
+/* level 2 list */
+#nav ul {
+	display: none;
+	z-index:99999999999999999;
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	position: absolute;
+	top:135px;
+	float:left
+	
+	
+}
+.list ul#nav ul li.listdiv{ background:url(../images/upper_div1.png) no-repeat; width:200px; height:15px; float:left}
+.list ul#nav ul li.listdivbtm{ background-image:url(../images/bottom_div2.png); width:200px; height:9px; float:left}
+.list ul#nav ul li { background-image:url(../images/center_div1.png); width:200px; float:left;
+	float: left;
+	margin: 0;
+	padding: 0;
+	z-index: 999999;
+}
+#nav ul li a{padding:8px 10px 8px 10px; text-align:left; min-width:130px; font-size:12px;}
+#nav ul a {
+	font-weight: normal;
+	#03396f
+}
+
+/* level 3+ list */
+#nav ul ul {
+	left: 181px;
+	top: -3px;
+}
+
+/* rounded corners of first and last link */
+#nav ul li:first-child > a {
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+
+	-webkit-border-top-right-radius: 9px;
+	-moz-border-radius-topright: 9px;
+}
+#nav ul li:last-child > a {
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomleft: 9px;
+
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+}
+
+/* clearfix */
+#nav:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#nav {
+	display: inline-block;
+} 
+html[xmlns] #nav {
+	display: block;
+}
+ 
+* html #nav {
+	height: 1%;
+}
+/******content-----------*/
+.content{ float:left;width:972px; height:auto; background-color:#f9f9f9;  border:1px solid #d7d7d7; margin-left:2px; border-bottom-left-radius:6px;border-bottom-right-radius:6px; padding-bottom:20px}
+.content span.text_0{ float:left; font-size:30px; margin-left:170px; margin-top:150px; width:600px; margin-bottom:150px}
+.content span.text_0 a{color:#383838}
+.content .image_0{ float:right;width:210px; margin-top:60px; margin-bottom:10px}
+.content .image_0 img{ float:left}
+
+
+
+/***************after login page ends--------------*/
+/***************categories edit tips page starts--------------*/
+.form1{ float:left; width:600px; margin-top:50px; margin-left:90px }
+.form1 form span.form_1{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:19px; padding-left:40px; }
+.form1 form input[type="text"]{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:10px}
+.form1 form input[type="text"]:hover{ background-position:0px -40px}
+.form1 form input[type="text"]:focus{ background-position:0px -80px}
+.form1 form .select{}
+.form1 form .select select{ width:252px; height:36px; float:left; margin-top:15px; background-image:url(../images/2.png)}
+.form1 form span.form_2{ float:left; width:150px; text-align:left; font-size:16px; color:#515151; padding-top:19px; padding-left:40px}
+.form1 textarea{ float:left; margin-top:10px; width:390px; resize:none; outline:none;border: 1px #CECECE solid; border-radius:5px}
+.form1 textarea:focus{ border:1px solid #09F}
+.form1 input.s1[type="submit"]{ float:left; margin-left:190px; background-image:url(../images/button3.png); width:109px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; color:#FFFFFF}
+.form1 input.s1[type="submit"]:hover{ background-position:0px -38px}
+.form1 input.s2[type="submit"]{ float:left; margin-left:25px; background-image:url(../images/button3.png); width:109px; height:38px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; font-size:18px; color:#2b2b2b; margin-top:20px; cursor:pointer}
+.form1 input.s2[type="submit"]:hover{ background-position:0px -38px}
+.main{ float:right;margin-top:0px; width:500px; }
+
+
+/***************categories edit tips page ends--------------*/
+
+/***************categories edit  customers page starts--------------*/
+
+.form2{ float:left; width:600px; margin-top:50px; margin-left:90px}
+.form2 form span.form_11{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:18px; padding-left:40px; }
+.form2 form input[type="text"]{float:left; width:245px; padding-left:5px;background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:10px}
+.form2 form input[type="text"]:hover{ background-position:0px -40px}
+.form2 form input[type="text"]:focus{background-position:0px -80px}
+.form2 form input[type="password"]{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:10px}
+.form2 form input[type="password"]:hover{ background-position:0px -40px}
+.form2 form input[type="password"]:focus{ background-position:0px -80px}
+.form2 input.s_1[type="submit"]{ float:left; margin-left:190px; background-image:url(../images/button3.png); width:109px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; color:#FFFFFF}
+.form2 input.s_1[type="submit"]:hover{ background-position:0px -38px}
+.main{ float:right; margin-bottom:10px; width:500px}
+
+/***************categories edit  customers page ends--------------*/
+
+/***************categories edit page starts--------------*/
+.form3{ float:left; width:600px; margin-top:50px; margin-left:90px}
+.form3 form span.form_12{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:18px; padding-left:40px; }
+.form3 form input[type="text"]{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:10px}
+.form3 form input[type="text"]:hover{ background-position:0px -40px}
+.form3 form input[type="text"]:focus{background-position:0px -80px}
+.form3 .pic textarea{ width:390px; border-radius:5px; float:left; margin-top:16px;padding-left: 3px;outline: none;border-radius: 7px;background-color: transparent;border: 1px solid #CECECE;resize: none; padding-top:3px}
+.form3 .pic textarea:focus{ border:1px solid #09C;}
+.form3 select{ width:245px; float:left; margin-top:16px;padding-left: 3px;outline: none;background-color: transparent;border: 1px solid #CECECE;resize: none; padding-top:3px}
+.form3 .edit1 input[type="button"]{ float:left; margin-top:17px; margin-left:10px; cursor:pointer; background-image:url(../images/choose.gif); width:95px; height:23px; border:0px; outline:none; background-color:transparent}
+.form3 .edit1 span.edit{ float:left;text-align:left; font-size:13px; width:180px; color:#9e9e9e; padding-left:10px; padding-top:5px}
+.form3 input.s_3[type="submit"]{ float:left; margin-left:190px; background-image:url(../images/submit_button.png); width:145px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer}
+.form3 input.s_3[type="submit"]:hover{ background-position:0px -38px}
+.main{ float:right; margin-bottom:10px; width:500px}
+
+
+/***************categories edit page ends--------------*/
+.form5{margin-top: 40px;}
+.txt{ font-size:13px; text-align:left; color:#515151;}
+.txt1{ float:left; min-width:150px; font-size:16px; color:#515151; text-align:left;padding-top:28px;}
+.txt1input{ width:570px;float:left}
+.txt1input input[type="text"]{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:20px}
+.txt1input input[type="text"]:hover{ background-position:0px -40px}
+.txt1input input[type="text"]:focus{background-position:0px -80px}
+.txt1input input[type="checkbox"]{ float:left; margin-top:31px}
+.txt1input select{width:245px; float:left; margin-top:30px}
+.txt2{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:28px;}
+.txt1input textarea{width:390px; margin-top:20px;text-align: left;float: left;padding-left: 3px;outline: none;border-radius: 7px;background-color: transparent;border: 1px solid #CECECE;resize: none; padding-top:3px}
+.txt1input textarea:focus{ border:1px solid #09C;}
+
+.btn input.del_btn[type="submit"]{ float:left; margin-left:150px; background-image:url(../images/submit_button1.png); width:100px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; color:#FFFFFF}
+.btn input.del_btn[type="submit"]:hover{ background-position:0px -38px}
+
+.btn_popwin{ float:left}
+
+.btn input.wiht_btn[type="button"]{ float:left; margin-left:150px; background-image:url(../images/submit_button2.png); width:175px; height:38px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; color:#FFFFFF}
+.btn input.wiht_btn[type="button"]:hover{ background-position:0px -38px}
+
+.btn input.wiht_btn[type="submit"]{ float:left; margin-left:150px; background-image:url(../images/submit_button2.png); width:175px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; color:#FFFFFF}
+.btn input.wiht_btn[type="submit"]:hover{ background-position:0px -38px}
+
+
+.btn input.s_4[type="submit"]{ float:left; margin-left:150px; background-image:url(../images/submit_button.png); width:145px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; color:#FFFFFF}
+.button input.s_4[type="submit"]:hover{ background-position:0px -38px}
+
+
+.main{ float:right; margin-bottom:10px; width:500px}
+
+/***************categories  editpage1 starts--------------*/
+.form4{ float:left; width:600px; margin-top:20px; margin-left:90px}
+.form4 form span.form_13{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:13px; padding-left:40px}
+.form4 form input[type="text"]{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:4px}
+.form4 form input[type="text"]:hover{ background-position:0px -40px}
+.form4 form input[type="text"]:focus{background-position:0px -80px}
+.pic{ float:left; width: 100px;}
+.pic img{ float:left;}
+.edit1{ float:left; width:300px}
+.edit1 input[type="file"]{ float:left; margin-top:15px; cursor:pointer; border:0px; outline:none; background-color:transparent}
+span.edit{text-align:left; font-size:13px; color:#9e9e9e; padding-top:5px}
+.form4 textarea{padding-left: 3px; margin-top:10px;outline: none;border-radius: 7px;background-color: transparent;border: 1px solid #CECECE;resize: none; float:left; margin-left:0px}
+.form4 textarea:focus{ border:1px solid #09C}
+.form4 input.s_4[type="submit"]{ float:left; margin-left:190px; background-image:url(../images/submit_button.png); width:145px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer}
+.form4 input.s_4[type="submit"]:hover{ background-position:0px -38px}
+.form4 input.s_2[type="submit"]{ cursor:pointer; float:left; margin-left:25px; background-image:url(../images/button3.png); width:109px; height:38px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; font-size:18px; color:#2b2b2b; margin-top:20px}
+.form4 input.s_2[type="submit"]:hover{ background-position:0px -38px}
+
+.main{ float:right; margin-bottom:10px; width:500px}
+
+
+/***************categories  editpage1 ends--------------*/
+/***************manage customer page starts--------------*/
+.down_category{  width:770px; margin-bottom:20px; height:auto; margin-top:30px}
+.down_category .head{ float:left; background-image:url(../images/header.png); width:770px; height:41px}
+.down_category .head span.head_text{ float:left; text-align:left; font-size:18px; color:#626262; padding-top:10px; padding-left:10px}
+.down_category .head .add{ float:left}
+
+.down_category .head .add a{ float:left; background-image:url(../images/add_catagory_button.png); width:95px; height:30px; margin-left:10px; margin-top:6px; background-position:0px 0px; outline:none; background-color:transparent; border:0px; font-size:18px;color:#626262; padding-left:17px; cursor:pointer}
+.down_category .head .add a .add1{ float:left;background-image:url(../images/add.png); width:16px; height:14px; margin-top:7px; margin-left:-8px }
+
+.down_category .head .add a .add-12{ float:left;background-image:url(../images/export.png); width:15px; height:15px; margin-top:7px; margin-left:-8px }
+.down_category .head .add a .add-12 span.head_text1{ width:80px;float:left; font-size:14px; margin-left:18px;color:#626262;}
+.down_category .head .add a .add-12 span.head_text1{ width:80px;float:left; font-size:14px; margin-left:18px;color:#626262;}
+.down_category .head .add a .add1 span.head_text1{ width:80px;float:left; font-size:15px; margin-left:18px;color:#626262;}
+.down_category .head .add a:hover{ background-position:0px -30px}
+.down_category .head .search{ float:right; width:250px; margin-top:5px}
+.down_category .head .search input[type="text"]{ float:left; background-image:url(../images/search_bar.png); width:180px; height:31px; background-color:transparent; border:0px; padding-top:0px; outline:none; padding-left:10px; background-position:0px 0px}
+.down_category .head .search input[type="text"]:hover{ background-position:0px -31px}
+.down_category .head .search input[type="text"]:focus{background-position:0px -93px}
+
+.down_category .head .search .side_search{ float:left; background-image:url(../images/search_button.png); width:30px; height:32px; margin-top:1px; background-position:0px -1px; text-indent:-9999px; overflow:hidden; background-color:transparent; border:none; cursor:pointer; font-size:01px; line-height:0px; display:block}
+.down_category .head .search .side_search:hover{ background-position:0px -32px}
+.down_category .head .search .side_search:focus{background-position:0px -93spx}
+.down_category .content_blue{ float:left; border:1px solid #cecece; width:768px; height:41px; background-color:#e1f3ff; border-bottom:0px}
+
+.down_category  input[type="checkbox"]{ float:left; margin-left:10px; margin-top:2px}
+.down_category  .n1{ float:left; width:222px; margin-left:44px; text-align:left; margin-top:12px; font-size:16px; color:#2b2b2b}
+.down_category  .nn1{ float:left; margin-left:45px; margin-top:12px; font-size:16px; color:#2b2b2b}
+.down_category  .nn1 a{color:#2b2b2b }
+
+.down_category .n2{ float:left;width:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.down_category  .n3{ float:left;width:140px; font-size:16px; color:#2b2b2b}
+.down_category  .nn3 img{float: left;margin-left: 42px;margin-top: 13px;margin-bottom: 25px;}
+.down_category  .n4{ float:left;width:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.down_category  .n_4{background-image:url(../images/button5.png); width:60px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:42px; padding-top:3px; background-position:0px 0px }
+.down_category  .n_6{background-image:url(../images/content/edit_.png); width:46px; height:24px; font-size:13px; background-position:0px 0px; margin-left:45px}
+.down_category  .n_6:hover{ background-position:0px -24px}
+.down_category  .n_6 span.v5{ float:left; padding-left:9px; padding-top:4px}
+.down_category  .n_6 a{color:#2b2b2b}
+.item .delete{}
+.down_category .blue2 .n_02{ float:left; width:360px; text-align:left; padding-left:43px; margin-top:12px; font-size:16px; color:#f7941e}
+.down_category  .n_01{ float:left; width:360px; text-align:left; padding-left:43px; margin-top:12px; font-size:16px; color:#2b2b2b}
+
+.down_category  .n_4 span.v2 a{ float:left;padding-left: 7px;
+padding-top: 1px; padding-right:4px;
+font-size: 13px;color: #2B2B2B}
+.down_category  .n_4 span.v2 a:hover{background-image:url(../images/button5.png);background-position:0px -27px}
+.down_category  .n_4 span.v3 a{ float:left;padding-left: 9px;
+padding-top: 1px; padding-right:9px;
+font-size: 13px;color: #2B2B2B}
+
+.down_category .content1{ float:left; background-color:#FFF; width:768px; border:1px solid #cecece; height:auto; padding-bottom:20px  }
+.down_category  .n5{ float:leftwidth:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.down_category .blue2{ float:left;  width:768px;}
+.down_category .blue2 .n_1{ float:left; text-align:left; margin-left:44px; width:222px; margin-top:12px; font-size:16px; color:#f7941e}
+
+.down_category .blue2 .n_2{ float:left;width:140px;margin-top:12px }
+.down_category .blue2 input.n_5[type="button"]{ float:left; background-image:url(../images/add_subcatagory_button.png); width:97px; height:24px; margin-left:40px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; cursor:pointer }
+.down_category .blue2 input.n_5[type="button"]:hover{background-position:0px -24px}
+.down_category  .n6{ float:left; text-align:left; margin-left:253px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.down_category  .n6 a{color:#2b2b2b}
+.down_category  .n7{ float:left;text-align:left;margin-top:12px; margin-left:200px; font-size:16px; color:#2b2b2b}
+.down_category  .n8{ float:left;margin-top:12px; margin-left:53px; font-size:16px; color:#2b2b2b}
+.down_category  .n9{ float:left;margin-top:12px; margin-left:75px; font-size:16px; color:#2b2b2b}
+.down_category  .nn_4{background:url(../images/button5.png) no-repeat; width:97px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:55px; padding-top:3px; background-position:0px 0px }
+.down_category  .nn_4 span.v2 a{ float:left;padding-left: 7px; padding-bottom:2px;
+ padding-right:6px;
+font-size: 13px;color: #2B2B2B}
+.down_category  .nn_4 span.v2 a:hover{background:url(../images/button5.png); background-position:1px 22px}
+.down_category  .nn_4 span.v3 a{ float:left;padding-left: 9px;
+ padding-right:9px;
+font-size: 13px;color: #2B2B2B}
+.slide{background:url(../images/button5.png) no-repeat; width:97px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:55px; padding-top:3px; background-position:0px 0px}
+.slide span.v2 a{ float:left;padding-left: 7px; padding-bottom:2px;
+ padding-right:6px;
+font-size: 13px;color: #2B2B2B}
+.slide span.v2 a:hover{background:url(../images/button5.png); background-position:1px 22px}
+.slide span.v3 a{ float:left;padding-left: 9px;
+ padding-right:9px;
+font-size: 13px;color: #2B2B2B}
+/***************manage customer page ends--------------*/
+
+/***************update profile starts--------------*/
+.form_update{ float:left; width:550px; margin-top:50px; margin-left:90px}
+.form_update form span.form_up{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:18px; padding-left:40px; }
+.form_update form input[type="text"]{float:left; width:245px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:10px; padding-left:5px; margin-left:20px}
+.form_update form input[type="text"]:hover{ background-position:0px -40px}
+.form_update form input[type="text"]:focus{background-position:0px -80px}
+.form_update form span.text_up{ float:left; font-size:14px; margin-left:200px; width:310px; font-family:Arial, Helvetica, sans-serif; padding-left:6px; color:#adadad}
+
+.form_update form input[type="password"]{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none; margin-top:10px; margin-left:20px}
+
+.form_update form input[type="password"]:hover{ background-position:0px -40px}
+.form_update form input[type="password"]:focus{background-position:0px -80px}
+
+
+
+.form_update input.s_11[type="submit"]{ float:left; margin-left:210px; background-image:url(../images/button3.png); width:109px; height:38px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer}
+.form_update input.s_11[type="submit"]:hover{ background-position:0px -38px}
+.main{ float:right; margin-bottom:10px; width:500px}
+
+/***************update profile ends--------------*/
+
+.about{ float:left; width:550px}
+.down_category  .nn4{ float:right;margin-top:12px; margin-right:100px; font-size:16px; color:#2b2b2b}
+.down_category  .nnn4{ float:right;margin-top:12px; margin-right:85px; font-size:16px; color:#2b2b2b}
+.tip1{ float:left; width:140px;  margin-top:12px; font-size:16px; color:#2b2b2b}
+.tip2{ float:left;  width:130px; margin-top:12px; font-size:16px; color:#f7941e; text-align:left; padding-left:10px}
+.tip3{ float:left;  width:140px; margin-top:12px; font-size:16px; color:#f7941e; }
+.down_category  .nn_4{background-image:url(../images/edit_.png); width:46px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:42px; padding-top:3px; background-position:0px 0px }
+.view {height:20px}
+.view a{ display:block; padding-bottom:2px; color:#555555}
+.view a:hover{ border-radius:6px}
+/***************category popup page starts--------------*/
+.category2{ float:left; background-image:url(../images/popup_bg.png); display:none; width:550px; height:144px;}
+.category2 span.c1{ font-size:18px; font-family:Arial, Helvetica, sans-serif; float:left; color:#686868; padding-left:15px; padding-top:10px}
+.category2 .pic_cross{ float:right; width:40px; height:30px}
+.category2 .pic_cross .cross{ background-image:url(../images/cross.png); width:22px; height:22px; float:left; margin-left:24px }
+.category2 .content_text{  width:520px; height:auto; margin-top:25px; float:left; margin-left:19px}
+.category2 .content_text span.c2{ font-size:18px; font-family:Arial, Helvetica, sans-serif; float:left; color:#686868}
+.category2 input.button1[type="button"]{ float:left; background-image:url(../images/button.png); width:95px; height:38px; background-color:transparent; outline:none; border:0px; cursor:pointer; font-size:18px; color:#FFF; margin-left:320px; margin-top:10px; background-position:0px 0px}
+.category2 input.button1[type="button"]:focus{ background-position:0px -93px}
+.category2 input.button1[type="button"]:hover{ background-position:0px -38px}
+.category2 input.button_img[type="button"]{ float:left; background-image:url(../images/button.png); width:95px; height:38px; background-color:transparent; outline:none; border:0px; cursor:pointer; font-size:18px; color:#FFF; margin-left:10px;margin-top:10px; background-position:0px 0px}
+.category2 input.button_img[type="button"]:focus{ background-position:0px -93px}
+.category2 input.button_img[type="button"]:hover{ background-position:0px -38px}
+
+/***************category popup page ends--------------*/
+
+
+<!---------------------------------------SlideShow Start-----------------------------------------!>
+.slideshowdelend{ width:100%; float:left}
+.slideshowdelend input{ width:150px; height:45px;  margin-top:20px; outline:none; cursor:pointer; background-image:url(../images/delete_selected.png); border:none; outline:none; background-color:transparent; color:#FFFFFF; font-family:calibri; font-size:18px}
+.slideshowdelend input:hover{ background-position:0px -45px}
+
+.login{ background-image:url(../images/main_bg.png);width:680px; height:441px; margin-top:100px}
+.login form{ margin-left:90px; margin-top:20px; width:538px}
+.bannar{}
+.red1{color:red; padding-top:10px; margin-left:-45px;}
+.bannar img{ float:left; margin-left:155px}
+.bannar .bnrtxt{ float:left; font-size:24px;margin-top:25px; margin-left:10px; color:#FFF}
+.login1{ min-width:125px;  padding-top:20px;  float:left; font-size:18px; text-align:right; color:#515151;}
+.login1 img{ padding-right:8px}
+.logintxt{ float:left; margin-left:20px }
+.logintxt input{float:left; width:357px; padding-left:5px; margin-top:10px; background-image:url(../images/text_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none}
+.logintxt input:hover{ background-position:0px -40px}
+.logintxt input:focus{background-position:0px -80px}
+.logintxt img{ margin-left:10px; margin-top:10px}
+
+.lastlogin{ margin-top:10px; margin-left:20px}
+.lastlogin a{ float:left; font-size:12px; color:#666; padding-top:20px;padding-left: 10px;}
+.lastlogin a:hover{ text-decoration:underline}
+
+.login2 input[type="submit"]{ background-image:url(../images/button3.png); width:109px; color:#FFFFFF; font-size:16px; height:38px; float:right; margin-top:-10px; background-color:transparent; border:none; cursor:pointer; display:block; margin-right:33px; padding-right:5px;}
+.login2 input[type="submit"]:hover{ background-position:0px -38px; }
+.login3 input[type="submit"]{ background-image:url(../images/button3.png); width:109px; color:#FFFFFF; font-size:16px; height:38px; float:right; margin-top:10px; background-color:transparent; border:none; cursor:pointer; display:block; margin-right:290px; }
+.login3 input[type="submit"]:hover{ background-position:0px -38px; }
+
+
+
+/*--------------Cutomer View End-----------*/
+.viewform form{ height:auto; margin-top:50px; }
+.viewform form .view1{ width:235px; font-weight:bold; padding-top:9px; float:left;font-size:14px; color:#333; text-align:right }
+.viewform form .view2{ width:690px; padding-right:35px; padding-top:9px; padding-left:10px;float:left;font-size:13px; color:#515151; text-align:left; }
+/*--------------Cutomer View End-----------*/
+
+/*--------------Position Start-----------*/
+.close{ padding:3px 0px; text-align:right;color:#333}
+.close a{text-decoration:underline; color:#666}
+.close a:hover{  color:#333;}
+.click{ text-align:left;  padding:3px 0px; color:#333}
+.sortul{}
+.sortul ul{ float:left; margin-top:30px;}
+.sortul ul li{ text-align:left; margin-bottom:8px; cursor:pointer}
+.sortul ul li a .sortimg{ background-image:url(../images/move.png); background-repeat:no-repeat; height:20px; width:20px; margin-top:8px; text-align:left;color:#666; padding-left:30px}
+.sortbtn input[type="button"]{ background-image:url(../images/button.png); width:95px; height:38px; float:left; margin-top:10px; background-color:transparent; border:none; cursor:pointer; display:block; margin-left:15px; font-size:16px; color:#FFF}
+.sortbtn input[type="button"]:hover{ background-position:0px -38px}
+.sortbtn input[type="button"]:active{ background-position:0px -76px}
+.sortbtn input[type="submit"]{ background-image:url(../images/button.png); width:95px; height:38px; float:left; margin-top:10px; background-color:transparent; border:none; cursor:pointer; display:block; margin-left:15px; font-size:16px; color:#FFF}
+
+
+
+.content_blue{  border:1px solid #cecece; width:768px; height:41px; background-color:#e1f3ff; border-bottom:0px}
+
+.content_blue  input[type="checkbox"]{ float:left; margin-left:10px; margin-top:15px}
+.content_blue  .n1{ float:left; width:222px; margin-left:44px; text-align:left; margin-top:12px; font-size:16px; color:#2b2b2b}
+.content_blue  .nn1{ float:left; margin-left:45px; margin-top:12px; font-size:16px; color:#2b2b2b}
+.content_blue .n2{ float:left;width:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.content_blue  .n3{ float:left;width:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.content_blue  .nn3 img{float: left;margin-left: 42px;margin-top: 13px;margin-bottom: 25px;}
+.content_blue  .n4{ float:left;width:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+
+.content1{ background-color:#FFF; width:768px; border:1px solid #cecece; height:auto; padding-bottom:20px  }
+.content1  .n5{ float:leftwidth:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.content1 .blue2{ float:left;  width:768px;}
+.content1 .blue2 .n_1{ float:left; text-align:left; margin-left:44px; width:222px; margin-top:12px; font-size:16px; color:#f7941e}
+
+.content1 .blue2 .n_2{ float:left;width:140px;margin-top:12px }
+.content1 .blue2  input[type="checkbox"]{ float:left; margin-left:10px; margin-top:15px}
+.content1 .n3{ float:left;width:140px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.content1  .n_4{background-image:url(../images/edit_.png); width:46px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:42px; padding-top:3px; background-position:0px 0px; margin-top:5px }
+.content1  .n_4 span.v2 a{ float:left;padding-left: 7px;
+padding-top: 1px; padding-right:4px;
+font-size: 13px;color: #2B2B2B}
+.content1  .n_4 span.v2 a:hover{background-image:url(../images/button5.png);background-position:0px -27px}
+
+.content1  .n_4 span.v3 a{ float:left;padding-left: 9px;
+padding-top: 1px; padding-right:9px;
+font-size: 13px;color: #2B2B2B}
+
+.content1 .blue2 input.n_5[type="button"]{ float:left; background-image:url(../images/add_subcatagory_button.png); width:97px; height:24px; margin-left:40px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; cursor:pointer }
+.content1 .blue2 input.n_5[type="button"]:hover{background-position:0px -24px}
+.content1  .n6{ float:left; text-align:left; margin-left:253px;margin-top:12px; font-size:16px; color:#2b2b2b}
+.content1  .n7{ float:left;text-align:left;margin-top:12px; margin-left:200px; font-size:16px; color:#2b2b2b}
+.content1  .n8{ float:left;margin-top:12px; margin-left:53px; font-size:16px; color:#2b2b2b}
+.content1  .n9{ float:left;margin-top:12px; margin-left:75px; font-size:16px; color:#2b2b2b}
+.content1  .nn_4{background:url(../images/button5.png) no-repeat; width:97px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:55px; padding-top:3px; background-position:0px 0px }
+.content1  .nn_4 span.v2 a{ float:left;padding-left: 7px; padding-bottom:2px;
+ padding-right:6px;
+font-size: 13px;color: #2B2B2B}
+.content1  .nn_4 span.v2 a:hover{background:url(../images/button5.png); background-position:1px 22px}
+.content1  .nn_4 span.v3 a{ float:left;padding-left: 9px;
+ padding-right:9px;
+font-size: 13px;color: #2B2B2B}
+
+.managetipsdiv{ width:46px; height:24px; font-size:13px; background-color:transparent; border:0px; outline:none; float:left; margin-left:42px;  background-position:0px 0px }
+
+
+.cancelbtlslide{ float:left; margin-left:15px; background-image:url(../images/submit_button1.png); width:100px; height:30px; background-color:transparent; border:0px; outline:none; margin-top:20px; background-position:0px 0px; font-size:18px; color:#2b2b2b; cursor:pointer; padding-top:8px; color:#FFFFFF}
+.cancelbtlslide:hover{ background-position:0px -38px}
+
+
+.error{ color:#F00; font-family:calibri }
+.success{ color:#060; font-family:calibri }
+
+.disabled_tnt_pagination{ color:#e4e3e3}
+#tnt_pagination{
+	float: right;
+	margin: 10px auto;
+	width: 100%;
+}
+#tnt_pagination a{ color:#939494}
+#tnt_pagination a:hover{ color:#000}
+
+.resetallpage{ float: right; margin-top: 5px; margin-right: 6px; font-family:calibri; }
+.resetallpage a{ color:#000; background-image:url(../images/reset.png); width:75px; height:30px; display:block; text-indent:99999999; font-size:0; line-height:0; }
+.resetallpage a:hover{ background-position:0px -30px}
+.resetallpage a:hover{ color:#666}
+
+.datetimediv{float: left; margin-top: 20px; font-family:calibri; margin-left: 10px;}
+
+.calender {
+cursor: pointer;
+background: url(../images/cal.gif) no-repeat;
+height: 16px;
+width: 16px;
+display: block;
+float: left;
+}
+
+
+.delete_vid{ background-image:url(../../image/delete_vid.png); width:75px; height:30px; font-size:0; line-height:0; text-indent:9999; display:block}
+.delete_vid:hover{ background-position:0px 30px}
+
+
+.popvid_oploadbtn{background-image: url(../images/button3.png);width: 109px; height: 38px; background-color:transparent; border:none; outline:none; cursor:pointer; color:#FFF; font-size:16px}
+.popvid_oploadbtn:hover{ background-position:0px 38px}
+/*
+.delete_vid{ position:absolute; float:left; margin-top:-290px; margin-left:442px}*/
+
+
+/* w editing starts here*/
+.input_text{float:left; width:245px; padding-left:5px; background-image:url(../images/login_box.png); height:40px; background-position:0px 0px; background-color:transparent; border:0px; outline:none;}
+.input_text:hover{ background-position:0px -40px}
+.input_text:focus{background-position:0px -80px}
+.input_checkbox{ float:left; margin-top:31px}
+.input_select{width:245px; float:left; margin-top:30px}
+.txt2{ float:left; width:150px; font-size:16px; color:#515151; text-align:left;padding-top:28px;}
+.input_textarea{width:390px; margin-top:20px;text-align: left;float: left;padding-left: 3px;outline: none;border-radius: 7px;background-color: transparent;border: 1px solid #CECECE;resize: none; padding-top:3px}
+.input_textarea:focus{ border:1px solid #09C;}
+
+
+
+.label_form{color:#515151; font-size:16px;padding-top: 10px;}
+
+.button{ cursor:pointer; float:left; background-image:url(../images/button3.png); width:109px; height:38px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; font-size:18px; color:#2b2b2b; color:#FFFFFF}
+.button:hover{ background-position:0px -38px}
+
+.a_button{ cursor:pointer; float:left; background-image:url(../images/button3.png); width:109px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; font-size:18px; color:#2b2b2b; color:#FFFFFF; text-align: center; padding: 7px 0px;}
+.a_button:hover{ background-position:0px -38px}
+.a_button1{ cursor:pointer; float:left;background-image:url(../images/delete_selected.png); width:151px; background-color:transparent; border:0px; outline:none; background-position:0px 0px; font-size:18px; margin-left:10px; margin-top:20px; color:#2b2b2b; color:#FFFFFF; text-align: center; padding:11px 0px;}
+.a_button1:hover{ background-position:0px -45px}
+.tripscntr{ width:312px}
+.logo{
+	float:left;
+	text-align:left;
+}
+.top_header{
+	float: left;
+	margin:5px 0px;
+	width: 100%;
+}
+.site_name{
+	width: 370px;
+	float: left;
+	font-size: 22px;
+	color: #666;
+	text-align: left;
+	margin: 21px 0px 0px 20px;
+}
+
+
+/* clock */
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {width: 976px; margin: 0 auto; overflow: hidden;}
+
+.clock {
+/*	width: 160px;
+*/	margin: 0 auto;
+	padding: 5px;
+	color: white;
+	float: right;
+	background-color:#666;
+	-moz-border-radius:5px;
+	-web-kit-border-radius:5px;
+	border-radius:5px; margin-top:7px;
+}
+
+#Date { font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; font-size: 16px; text-shadow:0 0 5px #00c6ff; }
+
+.clock ul { width: 100%; margin:0 auto; padding:0px; list-style:none; }
+.clock ul li { display:inline; font-size: 22px; text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; text-shadow:0 0 5px #00c6ff; }
+
+#point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding:0px 0px; }
+
+/* Simple Animation */
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+.fstrow{background-color:#e1f3ff; border-bottom:1px solid #cecece;}
+.fstrow td{
+	 padding:8px 2px;
+}
+.scndrow td {
+	padding: 5px 2px;
+}
+.scndrow.alternate{
+	background-color:#fff;
+}
+.scndrow{
+	background-color:#EFEFEF;
+}
+.maintbl{ background-color:#FFF; border:1px solid #cecece; float: left;}
+.log{ float:right; font-size:16px; margin-top:29px; margin-right:15px; color:#000; font-family:Arial, Helvetica, sans-serif}
+.log:hover{ text-decoration:underline}
+.txtarblog{ width:597px; height:100px;
+text-align: left;
+float: left;
+padding-left: 3px;
+outline: none;
+border-radius: 7px;
+background-color: transparent;
+border: 1px solid #CECECE;
+resize: none;
+padding-top: 3px}
+.txtarblog:focus{ border:1px solid #09C;}
+
+
+
+.star{
+	color:#ff0000;
+}
+
+.disabled_tnt_pagination{
+	color:#CCC;
+	border: 1px solid #CCC;
+	padding: 2px 5px;
+}
+.active_tnt_link{
+	color:#333;
+	border: 1px solid #666;
+	padding: 2px 5px;
+}
+
+#tnt_pagination a{
+	color: #999;
+	border: 1px solid #999;
+	padding: 2px 5px;
+}
+
+#tnt_pagination a:hover{
+	color:#333;
+	border: 1px solid #666;
+	padding: 2px 5px;
+}
+
+.ui-sortable li{
+	background-color:#F5F5F5;
+	margin:3px;
+}
+.k_select{
+	width: 250px;
+	border-radius: 4px;
+	padding: 5px;
+	height: 32px;
+}

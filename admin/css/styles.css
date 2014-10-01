@@ -1,0 +1,13 @@
+
+.item{
+	
+}
+
+.item .delete{
+	
+	width:36px;
+	height:17px;
+	float:left; cursor:pointer; 
+}
+
+.item .delete:hover{background-image:url(../images/Catagories%20Page/Slices/edit_button.png); background-position:0px 20px}
